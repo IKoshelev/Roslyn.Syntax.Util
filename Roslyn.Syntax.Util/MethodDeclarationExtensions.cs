@@ -67,7 +67,11 @@ namespace Roslyn.Syntax.Util
             do
             {
                 var parentIsAKindOfInnerFunction =
-                    parent.Fits(SyntaxKind.LocalFunctionStatement,
+                    parent.Fits(
+#if PCL
+#else
+                         SyntaxKind.LocalFunctionStatement,
+#endif
                                 SyntaxKind.DelegateDeclaration,
                                 SyntaxKind.SimpleLambdaExpression,
                                 SyntaxKind.ParenthesizedExpression);

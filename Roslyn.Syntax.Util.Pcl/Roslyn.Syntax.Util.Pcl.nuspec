@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+   <id>Roslyn.Syntax.Util.Pcl</id>
+    <version>0.0.2</version>
+    <title>Roslyn.Syntax.Util.Pcl</title>
+    <authors>github.com/ikoshelev</authors>
+    <owners>github.com/ikoshelev</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/IKoshelev/Roslyn.Syntax.Util</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Utility library for working with syntax graph in Roslyn.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags></tags>
+  </metadata>	
+</package>
